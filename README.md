@@ -21,8 +21,8 @@ Traditional assistive technologies are often one-way (speech-to-text only or ges
 
 ## Key Features
 
-- 🎙️ **Real-Time Speech-to-Text (Vosk ASR)**: Offline-capable speech recognition fine-tuned with the LibriSpeech dataset for low-latency, privacy-conscious transcription.
-- 🧠 **NLP English-to-ISL Grammar Engine**:
+- **Real-Time Speech-to-Text (Vosk ASR)**: Offline-capable speech recognition fine-tuned with the LibriSpeech dataset for low-latency, privacy-conscious transcription.
+- **NLP English-to-ISL Grammar Engine**:
   - Reorders English **Subject-Verb-Object (SVO)** structure into ISL **Subject-Object-Verb (SOV)** syntax.
   - Removes redundant articles (*a, an, the*) and auxiliary verbs (*is, are, was, were*).
   - Lemmatizes verbs and handles out-of-vocabulary fallback via **fingerspelling**.
@@ -84,6 +84,6 @@ The Sign Language Recognition model uses a hybrid **Convolutional 1D + Recurrent
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
