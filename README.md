@@ -19,28 +19,28 @@ Traditional assistive technologies are often one-way (speech-to-text only or ges
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 - 🎙️ **Real-Time Speech-to-Text (Vosk ASR)**: Offline-capable speech recognition fine-tuned with the LibriSpeech dataset for low-latency, privacy-conscious transcription.
 - 🧠 **NLP English-to-ISL Grammar Engine**:
   - Reorders English **Subject-Verb-Object (SVO)** structure into ISL **Subject-Object-Verb (SOV)** syntax.
   - Removes redundant articles (*a, an, the*) and auxiliary verbs (*is, are, was, were*).
   - Lemmatizes verbs and handles out-of-vocabulary fallback via **fingerspelling**.
-- 👤 **3D Avatar & SiGML Player**: Renders signing gestures based on **HamNoSys** (Hamburg Notation System) standards with speed and playback controls.
-- 🖐️ **AI Sign Gesture Recognition**:
+- **3D Avatar & SiGML Player**: Renders signing gestures based on **HamNoSys** (Hamburg Notation System) standards with speed and playback controls.
+- **AI Sign Gesture Recognition**:
   - MediaPipe Holistic keypoint extraction (21 3D landmarks per hand).
   - Spatial-temporal gesture classification using a hybrid **Conv1D + CNN-LSTM** model on 20-frame sliding windows.
-- 🔊 **Text-to-Speech Synthesis (Coqui TTS)**: Converts translated sign text back into natural sounding speech in real time.
-- 📹 **Integrated WebRTC Video Conferencing**: P2P video and audio call room with synchronized live captions, sign animations, and voice synthesis overlays.
+- **Text-to-Speech Synthesis (Coqui TTS)**: Converts translated sign text back into natural sounding speech in real time.
+- **Integrated WebRTC Video Conferencing**: P2P video and audio call room with synchronized live captions, sign animations, and voice synthesis overlays.
 
 ---
 
-## 📐 System Architecture
+## System Architecture
 
 ![System Architecture](./SystemArchitecture.png)
 ---
 
-## 🛠️ Tech Stack & Microservices
+## Tech Stack & Microservices
 
 | Component | Technology / Library | Description |
 | :--- | :--- | :--- |
@@ -55,7 +55,7 @@ Traditional assistive technologies are often one-way (speech-to-text only or ges
 
 ---
 
-## 📊 Model Architecture Details (SLR)
+## Model Architecture Details (SLR)
 
 The Sign Language Recognition model uses a hybrid **Convolutional 1D + Recurrent (LSTM)** neural network:
 
@@ -68,18 +68,18 @@ The Sign Language Recognition model uses a hybrid **Convolutional 1D + Recurrent
 
 ---
 
-## 👥 Contributors & Acknowledgments
+## Contributors & Acknowledgments
 
 **Project Team:**
-* **Hrishikesh Bhatt** (Enrollment: 211B139) - [hrishi1402@gmail.com](mailto:hrishi1402@gmail.com)
 * **Pankaj Kumar Kushwaha** (Enrollment: 211B201) - [pankajkumarkushwaha242@gmail.com](mailto:pankajkumarkushwaha242@gmail.com)
+* **Hrishikesh Bhatt** (Enrollment: 211B139) - [hrishi1402@gmail.com](mailto:hrishi1402@gmail.com)
 * **Shivam Tripathi** (Enrollment: 211B293) - [shivam1705of@gmail.com](mailto:shivam1705of@gmail.com)
 
 **Supervised By:**
 * **Dr. Amit Kumar Srivastava**
 
 **Institution:**
-* Department of Computer Science & Engineering  
+* Department of Computer Science & Engineering
   **Jaypee University of Engineering & Technology (JUET), Guna, M.P., India** (May 2025)
 
 ---
